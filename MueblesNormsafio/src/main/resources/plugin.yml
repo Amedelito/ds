@@ -1,0 +1,20 @@
+name: MueblesNormsafio
+version: ${project.version}
+main: es.normsafio.muebles.Muebles
+api-version: '1.21'
+description: Muebles decorativos con modelos del texture pack de Normsafio
+commands:
+  mueble:
+    description: Menu de muebles / dar muebles
+    aliases: [muebles, furniture]
+    usage: /mueble [dar <id> [jugador] | lista]
+permissions:
+  muebles.usar:
+    description: Colocar, sentarse, rotar y recoger muebles
+    default: true
+  muebles.menu:
+    description: Abrir el menu /mueble y obtener muebles
+    default: op
+  muebles.admin:
+    description: Dar muebles a otros jugadores
+    default: op

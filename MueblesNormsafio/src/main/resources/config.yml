@@ -1,0 +1,14 @@
+# Angulo extra que se suma al colocar. Si el frente de un mueble queda mirando hacia el lado
+# contrario del jugador, prueba 180 (o 90 / 270 si queda de lado).
+yaw-offset: 0
+# Los muebles se giran en saltos de estos grados al colocarlos / rotarlos.
+snap-degrees: 45
+# Ajuste fino de la altura al sentarse (metros). Si el jugador queda hundido, sube el valor
+# (ej. 0.1); si queda flotando, bajalo (ej. -0.3).
+seat-offset: -0.1
+messages:
+  no-space: "&cNo hay espacio para colocar el mueble ahi."
+  no-permission: "&cNo tienes permiso."
+  occupied: "&cEse asiento esta ocupado."
+  rotated: "&aMueble girado."
+  picked-up: "&aMueble recogido."
